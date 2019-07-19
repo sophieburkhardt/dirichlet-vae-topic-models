@@ -1,0 +1,4 @@
+#RSVI
+--adam_beta1 0.9 --adam_beta2 0.999 --learning_rate 0.001 --n_topic 100 --dir_prior 0.01 --warm_up_period 100 --data_dir data/20news/ --B 10 --nocorrection
+#Weibull, implicit, invCDF
+--adam_beta1 0.9 --adam_beta2 0.999 --learning_rate 0.001 --n_topic 100 --dir_prior 0.01 --warm_up_period 100 --data_dir data/20news/ 
