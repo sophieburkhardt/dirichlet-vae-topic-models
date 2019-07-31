@@ -1,6 +1,6 @@
 # Dirichlet Variational Autoencoders
 
-Implementation of different [Dirichlet Variational Autoencoders](https://www.datamining.informatik.uni-mainz.de/files/2019/07/JMLR-18-569-2.pdf). Accepted in JMLR 2019
+Implementation of different [Dirichlet Variational Autoencoders](https://www.datamining.informatik.uni-mainz.de/files/2019/07/Burkhardt_Kramer_DVAE.pdf). Accepted in JMLR 2019
 
 Implements the following methods
 - [Dirichlet-Autoencoder with "implicit gradients"](https://arxiv.org/pdf/1805.08498.pdf)
