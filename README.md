@@ -1,3 +1,9 @@
+# NEWS - Feb. 20, 2023
+
+Check out the Pytorch version of the Dirichlet Variational Autoencoder, implemented with Recjection Sampling Variational Inference, available at [https://github.com/mayanknagda/neural-topic-models](https://github.com/mayanknagda/neural-topic-models).
+
+Another Pytorch version of the DVAE using [pathwise gradients](http://proceedings.mlr.press/v80/jankowiak18a.html) is available here: [https://github.com/ahoho/topics](https://github.com/ahoho/topics).
+
 # Dirichlet Variational Autoencoders
 
 Implementation of different [Dirichlet Variational Autoencoders](https://www.datamining.informatik.uni-mainz.de/files/2019/07/Burkhardt_Kramer_DVAE.pdf). Accepted in JMLR 2019
