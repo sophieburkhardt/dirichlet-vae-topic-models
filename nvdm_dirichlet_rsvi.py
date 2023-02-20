@@ -87,7 +87,7 @@ class NVDM(object):
                 #this is the sampled gamma for this document, boosted to reduce the variance of the gradient
                 self.doc_vec = gamma_h_boosted(eps,u,self.alpha,self.B)
                 #normalize
-                self.doc_vec = tf.div(gam,tf.reshape(tf.reduce_sum(gam,1), (-1, 1)))
+                self.doc_vec = tf.div(self.doc_vec,tf.reshape(tf.reduce_sum(self.doc_vec,1), (-1, 1)))
                 self.doc_vec.set_shape(self.alpha.get_shape())
             #reconstruction
             if lda:
